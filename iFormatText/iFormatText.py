@@ -83,10 +83,10 @@ class iFormatText():
         print(self.toString());
 
 if (__name__ == '__main__'):  # Ejemplo
-    iformatTextPepe = iFormatText("Pepe");
+    iformatTextPepe = iFormatText("Felcot");
     iformatTextPepe.bond().print();
 
-    iformatTextPepe.reset().colorize('red').background('blue').print();
+    iformatTextPepe.reset().colorize('black').background('cyan').print();
     text = iFormatText("This text is an example of rainblow.");
     rainblow = text.rainBlow();
     text.print();
